@@ -17,22 +17,30 @@ body {
     width: 100%;
     height: 6rem;
     margin-bottom: 0.5rem;
-
     color: white;
     display: flex;
-    justify-content: start;
+    justify-content:space-between;
     align-items: center;
     text-align: left;
 }
 
+.divda
+{
+     display: flex;
+     
+}
 
-
-.p {
-    font-size: 1.5rem;
+.dp p {
+    font-size: 2.5rem;
     font-family: sans-serif;
     margin-left: 3rem;
 }
-
+.da a ,.p
+{
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    margin-right: 3rem;
+}
 .div2 {
     height: 30rem;
     display: flex;
@@ -83,7 +91,7 @@ body {
     border: 0.1rem solid brown;
     font-size: 1rem;
     padding: 0.5rem;
-    width: 8rem;
+    width: 12rem;
     color: brown;
 }
 
@@ -96,31 +104,42 @@ body {
 
 .mc {
     display: flex;
-    justify-content: space-between;
+    margin-left:25%;
 }
 
 .div2_5 {
 
-    margin-top: 3.5rem;
+    margin-top: 2.5rem;
 }
 
 .div2_5 p {
     margin-left: 0.5rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 0.1rem solid brown;
     color: brown;
+    width:2.5rem;
+    height:2.5rem;
     padding: 0.5rem;
     border-radius: 50%;
 }
 
 .div2_6 {
-    margin-top: 3.5rem;
-
+    margin-top:2.5rem;
 }
 
 .div2_6 p {
-    margin-right: 7rem;
+    margin-left: 2.5rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 0.1rem solid brown;
     color: brown;
+    width:2.5rem;
+    height:2.5rem;
     padding: 0.5rem;
     border-radius: 50%;
 }
@@ -171,7 +190,6 @@ body {
 
 .md {
     display: flex;
-    justify-content: space-between;
 }
 
 .top {
@@ -233,14 +251,14 @@ body {
     border: .1rem solid #7c2c0c;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:center;
     flex-direction: column;
 }
 
 .box:hover {
 
-    border: .1rem solid #fae6c4;
-    background-color: #fae6c4;
+    border: .1rem solid #aa7662;
+    background-color: #aa7662;
     transition: all .2s ease-in-out;
 }
 
@@ -249,7 +267,8 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
-
+    margin-bottom:3rem;
+    
 }
 
 .div4_2_1 p {
@@ -259,12 +278,36 @@ body {
 
 .div4_2_2 {
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.div4_2_5 {
+    width: 100%;
+    padding-top:3.3rem;
+    padding-bottom:3.3rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.div4_2_6 {
+    width: 100%;
+    padding-top:.7rem;
+    padding-bottom:.7rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 
 .div4_2_2 img {
+    width: auto;
+    height: auto;
+}
+.div4_2_5 img {
+    width: auto;
+    height: auto;
+}
+.div4_2_6 img {
     width: auto;
     height: auto;
 }
@@ -275,10 +318,10 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin-top:1rem;
 }
 
 .div4_2_3 p {
-
     color: #7c2c0c;
     font-size: 1.2rem;
 }
