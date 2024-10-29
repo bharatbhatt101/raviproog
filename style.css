@@ -1344,7 +1344,10 @@ body {
      {
         font-size:100%;
      }
-
+      body
+      {
+        background-color:#fae6c4;
+      }
      .divm1
      {
         flex-direction: column;
