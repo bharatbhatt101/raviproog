@@ -759,6 +759,7 @@ body {
     .div2 {
         flex-direction: column;
         height: 100%;
+        width:100%;
         padding-bottom: 2rem;
     }
 
@@ -771,18 +772,20 @@ body {
     }
 
     .div2_2 img {
-        width: 25rem;
+        width:100%;
         margin-top: 3rem;
         margin-right: 3rem;
     }
 
+    
     .div2_3 p {
-
-        width: 23rem;
+        
+        width:100%;
         color: brown;
-        margin-top: 1.5rem;
+        margin-top: 1rem;
         font-size: 1.3rem;
         margin-left: 3rem;
+        margin-right: 3rem;
     }
 
     .div2_4 {
@@ -818,15 +821,19 @@ body {
         justify-content: center;
         align-items: center;
         border: 0.1rem solid brown;
-        width: 30rem;
+        width:100%;
     }
 
     .div3_1 img {
         padding: 1.5rem;
         height: auto;
+      
         border: none;
     }
-
+    .div3_2,.div3_3
+    {
+        width:100%;
+    }
     .div3_2 h1 {
         font-family: sans-serif;
         color: brown;
@@ -836,7 +843,7 @@ body {
         color: rgb(81, 58, 58);
         font-size: 1rem;
         font-family: sans-serif;
-        width: 30rem;
+        width:100%;
     }
 
     .div3_4 button {
@@ -895,7 +902,7 @@ body {
     }
 
     .box {
-        width: 30rem;
+        width:100%;
         height: 30rem;
         margin-bottom: 1.5rem;
         border: .1rem solid #7c2c0c;
@@ -927,7 +934,7 @@ body {
     }
 
     .div4_2_2 {
-        width: 100%;
+        width:100%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -951,13 +958,14 @@ body {
         align-items: center;
     }
 
+    
     .div4_2_2 img {
-        width: auto;
+        width:auto;
         height: auto;
     }
 
     .div4_2_5 img {
-        width: auto;
+        width:auto;
         height: auto;
     }
 
@@ -1095,7 +1103,7 @@ body {
     }
 
     .div6_1 img {
-        width: 28rem;
+        width:100%;
         margin-right: 4.5rem;
     }
 
@@ -1106,7 +1114,7 @@ body {
     }
 
     .div6_2_2 input {
-        width: 27rem;
+        width:100%;
         background-color: #fae6c4;
         padding-left: .5rem;
         border: .1rem solid #7c2c0c;
@@ -1127,7 +1135,7 @@ body {
         color: white;
         font-size: 1rem;
         border: .1rem solid #7c2c0c;
-        width: 19rem;
+        width:100%;
         height: 2.5rem;
         margin-top: 1rem;
 
@@ -1163,7 +1171,7 @@ body {
 
     .div7_1_2 input,
     .div7_1_2 textarea {
-        width: 32rem;
+        width:100%;
         margin-top: 1rem;
         border-radius: .5rem;
         padding-left: .5rem;
@@ -1328,4 +1336,28 @@ body {
     
 
     
+}
+
+@media screen and (max-width:495px) {
+ 
+     html
+     {
+        font-size:100%;
+     }
+
+     .divm1
+     {
+        flex-direction: column;
+     }
+
+     #rdiv
+    {
+       margin-left:0rem;
+    }
+
+    .mdiv8_2_1_1
+    {
+        margin-top:2.5rem;
+        margin-bottom:.5rem;
+    }
 }
